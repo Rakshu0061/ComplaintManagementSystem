@@ -56,6 +56,8 @@ public class ComplaintService {
             map.put(s, complaintRepo.countByStatus(s));
         }
         return map;
+
+
     }
 
 }
